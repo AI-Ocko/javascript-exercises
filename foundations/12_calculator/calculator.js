@@ -1,26 +1,26 @@
-const add = function (num1, num2) {
-  return num1 + num2;
+const add = function(num1, num2) {
+  // return num1 + num2;
 
 };
 
-const subtract = function (num1, num2) {
+const subtract = function(num1, num2) {
   return num1 - num2;
 
 };
 
-const sum = function (array) {
+const sum = function(array) {
   return array.reduce((total, current) => total + current, 0);
 };
 
-const multiply = function (array) {
+const multiply = function(array) {
   return array.reduce((total, current) => total * current, 1);
 };
 
-const power = function (base, exponent) {
+const power = function(base, exponent) {
   return base ** exponent;
 };
 
-const factorial = function (n) {
+const factorial = function(n) {
   if (n < 0) return undefined;
   if (n === 0 || n === 1) return 1;
 
